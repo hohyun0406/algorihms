@@ -30,24 +30,20 @@ public class ArayTest2c {
             arrScore[i] = Integer.parseInt(score);
         }
 
+        String name = "";
         int max = 0;
+
 
         for(int i=0;i< arrName.length;i++){
             if (arrScore[i]>max){
-                arrScore[i] = max;
+                max = arrScore[i];
+                name = arrName[i];
+            }
+        }
+        System.out.println("1등 학생의 이름은 " name+"고 점수는 " + max + "이다");
             }
         }
 
-        for (int i=0;i< arrName.length;i++){
-            if(arrScore[i]=max){
-                System.out.println(arrName[i]);
-            }
-        }
-
-
-
-
-//        System.out.println(arrName[max 이걸어떻게?]+" 학생의 점수는 " +max+ "이다");
 
 
 
@@ -58,5 +54,3 @@ public class ArayTest2c {
 //            System.out.println(sc.next());
 //        }
 
-    }
-}
