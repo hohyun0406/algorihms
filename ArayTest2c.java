@@ -40,7 +40,7 @@ public class ArayTest2c {
                 name = arrName[i];
             }
         }
-        System.out.println("1등 학생의 이름은 " name+"고 점수는 " + max + "이다");
+        System.out.println("1등 학생의 이름은 " + name+"고 점수는 " + max + "이다");
             }
         }
 
