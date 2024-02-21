@@ -1,6 +1,7 @@
 package memberOOP;
 
 public class MemberMain {
+
     private String id;
     private String pw;
     private String pwCheck;
@@ -10,6 +11,16 @@ public class MemberMain {
     private String address;
     private String job;
 
+    private double height;
+    private double weight;
+
+    //카우프 지수에서 사용하는 생성자
+    public MemberMain(double height, double weight){
+        this.height = height;
+        this.weight = weight;
+    }
+
+    //회원가입에서 사용하는 생성자
     public MemberMain(String id, String pw, String pwCheck, String name, String jmNumber, String callNumber, String address, String job) {
         this.id = id;
         this.pw = pw;
@@ -20,6 +31,8 @@ public class MemberMain {
         this.address = address;
         this.job = job;
     }
+
+
 //
 //    public void setId(String id) {
 //        this.id = id;
@@ -49,13 +62,13 @@ public class MemberMain {
 //        this.name = name;
 //    }
 //
-//    public String getName() {
-//        return this.name;
-//    }
-//
-//    public void setJmNumber(String jmNumber) {
-//        this.jmNumber = jmNumber;
-//    }
+    public String getName() {
+        return this.name;
+    }
+
+    public void setJmNumber(String jmNumber) {
+        this.jmNumber = jmNumber;
+    }
 //
 //    public String getJmNumber() {
 //        return this.jmNumber;
@@ -86,12 +99,30 @@ public class MemberMain {
 //    }
 //
 
+    public void setHeight() {
+        double height = (Math.random() * 50 + 150);
+        height = Math.floor(height * 10) / 10;
+        this.height = height;
+    }
+
+    public double getHeight() {
+        return this.height;
+    }
+
+    public void setWeight() {
+        double weight = (Math.random() * 70 + 30);
+        weight = Math.floor(weight * 10) / 10;
+        this.weight = weight;
+    }
+
+    public double getWeight() {
+        return this.weight;
+    }
+
     @Override
     public String toString() {
         return "MemberMain{" +
                 "id='" + id + '\'' +
-                ", pw='" + pw + '\'' +
-                ", pwCheck='" + pwCheck + '\'' +
                 ", name='" + name + '\'' +
                 ", jmNumber='" + jmNumber + '\'' +
                 ", callNumber='" + callNumber + '\'' +
