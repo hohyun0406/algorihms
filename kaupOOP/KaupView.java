@@ -7,8 +7,7 @@ import java.util.Scanner;
 public class KaupView {
 
     public static void main(String[] args) {
-        Scanner sc = null;
-        sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         MemberMain person = null;
         person = new MemberMain(person.getHeight(), person.getWeight());
