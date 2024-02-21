@@ -3,6 +3,7 @@ package kaupOOP;
 import java.util.Scanner;
 
 public class KaupView {
+    static String test;
     public static void main(String[] args) {
         Person person = null;
         person = new Person();
@@ -25,6 +26,7 @@ public class KaupView {
         System.out.printf("BMI 지수는 %.1f입니다.", person.getBmi());
         System.out.println();
         System.out.printf("체질량 지수는 %s입니다.", person.getBodyMass());
+        System.out.println();
 
 
     }

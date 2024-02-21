@@ -8,6 +8,7 @@ public class GradeView {
         System.out.println("학교에 총 몇 반이 있는지 입력하시오.");
 
 
+
         System.out.println("1반에서 시험에 응시한 학생 수는 몇명입니까?");
         int numberOfStudent1 = sc.nextInt();
         int[] scores1 = new int[numberOfStudent1];
