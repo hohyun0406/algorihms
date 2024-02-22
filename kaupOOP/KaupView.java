@@ -1,7 +1,5 @@
 package kaupOOP;
 
-import memberOOP.MemberMain;
-
 import java.util.Scanner;
 
 public class KaupView {
@@ -23,7 +21,7 @@ public class KaupView {
         String bodyMass = service.createBodyMass();
 
 
-        System.out.printf("당신의 이름은 %s입니다.", person.getName());
+//        System.out.printf("당신의 이름은 %s입니다.", person.getName());
         System.out.println();
         System.out.printf("당신의 키는 %.1f입니다.", person.getHeight());
         System.out.println();

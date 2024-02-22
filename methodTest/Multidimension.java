@@ -1,3 +1,5 @@
+package methodTest;
+
 import java.util.Scanner;
 
 public class Multidimension {

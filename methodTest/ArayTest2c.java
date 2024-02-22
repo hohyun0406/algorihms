@@ -1,3 +1,5 @@
+package methodTest;
+
 import java.util.Scanner;
 //**
 // 최적화 문제중 최댓값 구하기 **//

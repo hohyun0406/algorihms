@@ -1,4 +1,4 @@
-package memberOOP;
+package kaupOOP;
 
 public class MemberMain {
 
@@ -62,13 +62,13 @@ public class MemberMain {
 //        this.name = name;
 //    }
 //
-    public String getName() {
-        return this.name;
-    }
-
-    public void setJmNumber(String jmNumber) {
-        this.jmNumber = jmNumber;
-    }
+//    public String getName() {
+//        return this.name;
+//    }
+//
+//    public void setJmNumber(String jmNumber) {
+//        this.jmNumber = jmNumber;
+//    }
 //
 //    public String getJmNumber() {
 //        return this.jmNumber;
