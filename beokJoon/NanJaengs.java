@@ -26,6 +26,8 @@ public class NanJaengs {
             }
         }
 
+        System.out.println("화이팅!!");
+
         for (int i = 0; i<9; i++){
             for (int a = 1; a < 100; a++) {
                 if (heights[i]==a) {
